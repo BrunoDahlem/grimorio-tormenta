@@ -1,0 +1,35 @@
+body{
+    z-index: 0;
+}
+.btn{
+    text-align: center;
+    border-color: #d04700;
+    background: #ffbfa0c7;
+    border-style: solid;
+    cursor: pointer;
+}
+.listaMagia {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.magia div{
+    position: relative;
+    left: 70%;
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+}
+.magia {
+    width: 300px;
+    font-size: 10px;
+    border: 1px solid #333 ;
+    padding: 20px;
+    margin: 20px 0 0 20px;
+}
+h1 {
+    font-size: 14px;
+}
+h3 {
+    font-size: 12px;
+}

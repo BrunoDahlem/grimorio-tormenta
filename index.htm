@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Ficha Bruno</title>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="css/geral.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/60ef12384d.js"></script>
+        <script src="js/geral.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <button type="button" class="btn" id="btn">Magias Conhecidas</button>
+            <div class="listaMagia">
+                <div class="magia">
+                    <div class="check">
+                    C<input type="checkbox" class="conhecido">
+                    M<input type="checkbox" class="memorizado"></div>
+                    <h1>Abençoar
+                    Alimentos</h1>
+                    <h3>Divina 1 (Transmutação)</h3>
+                    <p><b>Execução:</b> padrão; <b>Alcance:</b> curto;
+                        <b>Alvo:</b> alimento para 1 criatura; <b>Duração:</b> cena.</p>
+                    <p>Você purifica e abençoa uma porção de
+                    comida ou dose de bebida. Isso torna
+                    um alimento sujo, estragado ou envenenado próprio para consumo. Além
+                    disso, se for consumido até o final da
+                    duração, o alimento oferece 5 PV temporários ou 1 PM temporário (além de
+                    quaisquer bônus que já oferecesse).
+                    Bônus de alimentação duram um dia e
+                    cada personagem só pode receber um
+                    bônus de alimentação por dia.</p>
+                    <p><b>Truque:</b> o alimento é purificado (não
+                    causa nenhum efeito nocivo se estava
+                    estragado ou envenenado), mas não
+                    oferece bônus ao ser consumido.</p>
+                    <p><b>+1 PM:</b> aumenta o número de alvos
+                    em +1.</p>
+                    <p><b>+1 PM:</b> muda a duração para permanente, o alvo para 1 frasco com água e
+                    adiciona componente material (pó de
+                    prata no valor de T$ 5). Em vez do normal, cria um frasco de água benta.</p>
+                </div>
+                <div class="magia">
+                    <div class="check">
+                        C<input type="checkbox" class="conhecido">
+                        M<input type="checkbox" class="memorizado"></div>
+                <h1>Acalmar Animal</h1>
+                <h3>Divina 1 (Encantamento)</h3>
+                <p>Execução: padrão; Alcance: curto;
+                Alvo: 1 animal; Duração: cena; Resistência: Vontade anula.</p>
+                <p>O animal fica prestativo em relação a
+                você. Ele não fica sob seu controle, mas
+                percebe suas palavras e ações da maneira mais favorável possível. Você recebe
+                +10 nos testes de Adestramento e Diplomacia que fizer contra o animal.
+                Um alvo hostil ou que esteja envolvido
+                em um combate recebe +5 em seu teste
+                de resistência. Se você ou seus aliados
+                tomarem qualquer ação hostil contra o
+                alvo, a magia é anulada e ele retorna à
+                atitude que tinha antes (ou piorada, de
+                acordo com o mestre). Se tratar bem o
+                alvo, a atitude pode permanecer mesmo
+                após o término da magia.</p>
+                <p>+1 PM: muda o alcance para médio.</p>
+                <p>+1 PM: muda o alvo para 1 monstro ou
+                espírito com Inteligência 1, 2 ou nula.
+                Descrição das magias</p>
+                <p>+2 PM: aumenta o número de alvos
+                em +1.</p>
+                <p>+5 PM: muda o alvo para 1 monstro
+                ou espírito. Requer 3º círculo.</p>
+                </div>
+                <div class="magia">
+                    <div class="check">
+                        C<input type="checkbox" class="conhecido">
+                        M<input type="checkbox" class="memorizado"></div>
+                        <h1>Adaga Mental</h1>
+                        <h3>Arcana 1 (Encantamento)</h3>
+                        <p>Execução: padrão; Alcance: curto;
+                        Alvo: 1 criatura; Duração: instantânea; Resistência: Vontade parcial.</p>
+                        <p>Você manifesta e dispara uma adaga
+                        imaterial contra a mente do alvo, que
+                        sofre 2d6 pontos de dano mental e fica
+                        pasmo por uma rodada. Se passar no
+                        teste de resistência, sofre apenas metade do dano e não fica pasmo.</p>
+                        +1 PM: você lança a magia sem gesticular ou pronunciar palavras e a adaga
+                        <p>se torna invisível. Se o alvo falhar no
+                        teste de resistência, não percebe que
+                        você lançou uma magia contra ele.</p>
+                        <p>+2 PM: muda a duração para 1 dia.
+                        Além do normal, você “finca” a adaga
+                        na mente do alvo. Enquanto a magia
+                        durar, você sabe a direção e localização
+                        do alvo, desde que ele esteja no mesmo mundo.</p>
+                        <p>+2 PM: aumenta o dano em +1d6.</p> 
+                </div>
+                <div class="magia">
+                    <div class="check">
+                        C<input type="checkbox" class="conhecido">
+                        M<input type="checkbox" class="memorizado"></div>
+                        <h1>Alarme</h1>
+                        <h3>Arcana 1 (Abjuração)</h3>
+                        <p>Execução: padrão; Alcance: curto;
+                        Área: esfera de 9m de raio; Duração:
+                        1 dia.</p>
+                        <p>Você cria uma barreira protetora invisível que detecta qualquer criatura
+                        que tocar ou entrar na área protegida.
+                        Ao lançar a magia, você pode escolher
+                        quais criaturas podem entrar na área
+                        sem ativar seus efeitos. Alarme pode
+                        emitir um aviso telepático ou sonoro, decidido quando a magia é lançada. Um aviso telepático alerta apenas
+                        você, inclusive acordando-o se estiver
+                        dormindo, mas apenas se estiver a até
+                        1km da área protegida. Um aviso sonoro alerta todas as criaturas em alcance longo.</p>
+                        <p>+2 PM: muda o alcance para pessoal.
+                        A área é emanada a partir de você.</p>
+                        <p>+5 PM: além do normal, você também percebe qualquer efeito de adivinhação que seja usado dentro da
+                        área ou atravesse a área. Você pode
+                        fazer um teste oposto de Misticismo
+                        contra quem usou o efeito; se passar, tem um vislumbre de seu rosto e
+                        uma ideia aproximada de sua localização (“três dias de viagem ao norte”,
+                        por exemplo).</p>
+                        <p>+5 PM: muda a duração para 1 dia
+                        ou até ser descarregada e a resistência para Vontade anula. Quando um
+                        intruso entra na área, você pode descarregar a magia como uma reação. Se
+                        o intruso falhar na resistência, ficará
+                        paralisado por 1d4 rodadas. Além disso, pelas próximas 24 horas você e as
+                        criaturas escolhidas ganham +10 em
+                        testes de Sobrevivência para rastrear
+                        o intruso.</p> 
+                </div>
+            </div>
+    </body>
+</html>    
